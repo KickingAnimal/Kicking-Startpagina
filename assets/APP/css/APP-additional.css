@@ -130,8 +130,8 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #258B96 !important;
-  border-color: #258B96 !important;
+  background-color: #303030 !important;
+  border-color: #303030 !important;
   color: #FFFFFF !important;
 }
 .btn-secondary:hover,
@@ -736,7 +736,7 @@ section.lazy-placeholder:after {
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
-  background: #258B96;
+  background: #303030;
   transition: none;
   min-height: 77px;
 }
@@ -1125,7 +1125,7 @@ section.lazy-placeholder:after {
 .cid-qTkAaeaxX5 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #258B96;
+  background-color: #303030;
 }
 @media (max-width: 767px) {
   .cid-qTkAaeaxX5 .content {
@@ -1194,12 +1194,12 @@ section.lazy-placeholder:after {
 }
 .cid-rIB9igYgOW .navbar {
   padding: .5rem 0;
-  background: #258B96;
+  background: #303030;
   transition: none;
   min-height: 77px;
 }
 .cid-rIB9igYgOW .navbar-dropdown.bg-color.transparent.opened {
-  background: #258B96;
+  background: #303030;
 }
 .cid-rIB9igYgOW a {
   font-style: normal;
@@ -1574,7 +1574,7 @@ section.lazy-placeholder:after {
   color: #149dcc !important;
 }
 .cid-rIB9iiGES2 {
-  background-image: url("../../../assets/images/patroon-wit.svg");
+  background-image: url("../../../assets/images/Original-1920x1080(no-watermark&compression).png");
 }
 .cid-rIB9iiGES2 H1 {
   color: #149dcc;
@@ -1583,12 +1583,12 @@ section.lazy-placeholder:after {
 
 .cid-rIB9igYgOW .navbar {
   padding: .5rem 0;
-  background: #258B96;
+  background: #303030;
   transition: none;
   min-height: 77px;
 }
 .cid-rIB9igYgOW .navbar-dropdown.bg-color.transparent.opened {
-  background: #258B96;
+  background: #303030;
 }
 .cid-rIB9igYgOW a {
   font-style: normal;
