@@ -1,0 +1,8 @@
+whatsapp	#075e54
+reddit		#ff4500
+netflix		#831010
+youtube		#303030
+facebook	#0062E0
+analytics	#E37400
+github		#000000
+instagram	#8134af

@@ -1,0 +1,162 @@
+textarea:focus, input:focus {
+    color: #FFFFFF;
+}
+
+input, select, textarea{
+    color: #8a8a8a;
+}
+input, textarea {
+	 font-family: inherit;
+	/* 1 */
+	 font-size: 100%;
+	/* 2 */
+	 margin: 0;
+	/* 3 */
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+ label {
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+ textarea {
+	 overflow: auto;
+	/* 1 */
+	 vertical-align: top;
+	/* 2 */
+}
+ input[type='searchform'], input[type='text'] {
+	 width: 35em;
+	 background-color: Rgba(35, 35, 35, 0.4);
+	 height: calc(3em + 2px);
+	 padding: 1em;
+	 font-size: 1em;
+	 border: 3px solid Rgba(35, 35, 35, 0.4);
+	 border-radius: 1.5em;
+	 -webkit-transition: all 0.2s ease-out;
+	 transition: all 0.2s ease-out;
+	 -webkit-box-shadow: none;
+	 box-shadow: none;
+	 resize: none;
+	 outline: none;
+}
+ input[type='email']:hover, input[type='text']:hover {
+	 border: 3px solid #00bafa;
+}
+ input[type='email']:focus, input[type='text']:focus, input[type='email']:active, input[type='text']:active {
+	 border: 3px solid #0098cc;
+}
+ input[type='email']:focus + label:before, input[type='text']:focus + label:before, input[type='email']:active + label:before, input[type='text']:active + label:before {
+	 color: rgba(0, 0, 0, 0);
+}
+ input[type='email'] + label, input[type='text'] + label {
+	 display: block;
+	 font-size: 1em;
+	 height: 3em;
+	 line-height: 3em;
+	 margin-top: calc(-3em - 1px);
+	 margin-bottom: 1em;
+	 pointer-events: none;
+}
+ input[type='email'] + label:before, input[type='text'] + label:before {
+	 content: attr(placeholder);
+	 display: inline-block;
+	 color: #FFFFFF;
+	 margin: 0 calc(1em + 2px);
+	 white-space: nowrap;
+	 -webkit-transition-property: -webkit-transform, color;
+	 transition-property: transform, color;
+	 -webkit-transition-duration: 0.2s;
+	 transition-duration: 0.2s;
+	 -webkit-transition-delay: 0;
+	 transition-delay: 0;
+	 -webkit-transition-timing-function: ease-out;
+	 transition-timing-function: ease-out;
+	 -webkit-transform-origin: left center;
+	 -ms-transform-origin: left center;
+	 transform-origin: left center;
+}
+ input[type='email']:focus + label:before, input[type='text']:focus + label:before, input[type='email'].active + label:before, input[type='text'].active + label:before, input[type='email']:valid + label:before, input[type='text']:valid + label:before {
+	 background: Rgba(35, 35, 35, 0.0);
+	 line-height: 1;
+	 padding: 0 1.5px;
+	 -webkit-transform: translateY(calc(-3em / 2 - 1px/2)) scale(0.8, 0.8);
+	 -ms-transform: translateY(calc(-3em / 2 - 1px/2)) scale(0.8, 0.8);
+	 transform: translateY(calc(-3em / 2 - 1px/2)) scale(0.8, 0.8);
+}
+ input[type='email']:valid, input[type='text']:valid {
+	 border: 3px solid #0098cc;
+}
+ input[type='email']:valid + label:before, input[type='text']:valid + label:before {
+	 content: attr(alt);
+	 color: rgba(0, 0, 0, 0);
+}
+ textarea {
+	 width: 18em;
+	 background-color: #ffffff;
+	 height: calc(18em + 2px);
+	 padding: 1em;
+	 font-size: 1em;
+	 border: 1px solid #ccc;
+	 border-radius: 16px;
+	 -webkit-transition: all 0.2s ease-out;
+	 transition: all 0.2s ease-out;
+	 -webkit-box-shadow: none;
+	 box-shadow: none;
+	 resize: none;
+	 outline: none;
+}
+ textarea:hover {
+	 border: 1px solid #ccc;
+}
+ textarea:focus, textarea:active {
+	 border: 1px solid #00bafa;
+}
+ textarea:focus + label:before, textarea:active + label:before {
+	 color: #00bafa;
+}
+ textarea + label {
+	 display: block;
+	 font-size: 1em;
+	 height: calc(18em + 2px);
+	 line-height: 1;
+	 padding-top: calc(1em + 1px);
+	 margin-top: calc(-18em - 2px);
+	 margin-bottom: 1em;
+	 pointer-events: none;
+}
+ textarea + label:before {
+	 content: attr(placeholder);
+	 display: inline-block;
+	 color: #999;
+	 margin: 0 calc(1em + 2px);
+	 white-space: nowrap;
+	 -webkit-transition-property: -webkit-transform, color;
+	 transition-property: transform, color;
+	 -webkit-transition-duration: 0.2s;
+	 transition-duration: 0.2s;
+	 -webkit-transition-delay: 0;
+	 transition-delay: 0;
+	 -webkit-transition-timing-function: ease-out;
+	 transition-timing-function: ease-out;
+	 -webkit-transform-origin: left center;
+	 -ms-transform-origin: left center;
+	 transform-origin: left center;
+}
+ textarea:focus + label:before, textarea.active + label:before, textarea:valid + label:before {
+	 background: white;
+	 line-height: 1;
+	 padding: 0 1.5px;
+	 -webkit-transform: translateY(calc((-1em - 0.5em) - 0.5px)) scale(0.8, 0.8);
+	 -ms-transform: translateY(calc((-1em - 0.5em) - 0.5px)) scale(0.8, 0.8);
+	 transform: translateY(calc((-1em - 0.5em) - 0.5px)) scale(0.8, 0.8);
+}
+ textarea:valid {
+	 border: 1px solid #00bafa;
+}
+ textarea:valid + label:before {
+	 content: attr(alt);
+	 color: #00bafa;
+}
