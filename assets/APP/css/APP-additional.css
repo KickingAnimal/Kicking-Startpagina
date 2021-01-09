@@ -518,11 +518,11 @@ body {
   top: -20px;
   left: -20px;
 }
-.swap .Github-wit {
-  z-index: 9999;
+.swap .Github-zwart {
+  z-index: 1;
   transition: opacity .3s ease-in-out;
 }
-.swap2:hover .swap > .Github-wit{
+.swap2:hover .swap > .Github-zwart {
   opacity: 0;
 }
 .text-primary {
