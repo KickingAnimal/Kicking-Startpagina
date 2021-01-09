@@ -291,6 +291,7 @@ body {
   background-color: #0d0d0d !important;
   border-color: #0d0d0d !important;
 }
+
 .btn-primary-outline {
   background: none;
   border-color: #149dcc;
@@ -301,6 +302,7 @@ body {
   background-color: #149dcc;
   border-color: #149dcc;
 }
+
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
@@ -429,6 +431,7 @@ body {
   background-color: #ffffff;
   border-color: #ffffff;
 }
+
 .btn-Github-outline {
   background-color: none;
   border-color: #000000;
@@ -439,6 +442,7 @@ body {
   background-color: #000000;
   border-color: #000000;
 }
+
 .btn-youtube-outline {
   background: none;
   border-color: #303030;
@@ -449,6 +453,7 @@ body {
   background-color: #303030;
   border-color: #303030;
 }
+
 .btn-netflix-outline {
   background: none;
   border-color: #831010;
@@ -459,6 +464,7 @@ body {
   background-color: #831010;
   border-color: #831010;
 }
+
 .btn-reddit-outline {
   background: none;
   border-color: #ff4500;
@@ -469,6 +475,7 @@ body {
   background-color: #ff4500;
   border-color: #ff4500;
 }
+
 .btn-messenger-outline {
   background: none;
   border-color: #0062e0;
@@ -479,6 +486,7 @@ body {
   background-color: #0062e0;
   border-color: #0062e0;
 }
+
 .btn-whatsapp-outline {
   background: none;
   border-color: #075e54;
@@ -489,6 +497,7 @@ body {
   background-color: #075e54;
   border-color: #075e54;
 }
+
 .btn-instagram-outline {
   background: none;
   border-color: #8134af;
@@ -499,6 +508,7 @@ body {
   background-color: #8134af;
   border-color: #8134af;
 }
+
 .btn-analytics-outline {
   background: none;
   border-color: #e37400;
@@ -509,6 +519,18 @@ body {
   background-color: #e37400;
   border-color: #e37400;
 }
+
+.btn-twitter-outline {
+    background: none;
+    border-color: #1da1f2;
+    color: white;
+}
+.btn-twitter-outline:hover {
+    color: white;
+    background-color: #15202b;
+    border-color: #15202b;
+}
+
 .b
 .swap {
   position: relative;

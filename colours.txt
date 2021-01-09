@@ -6,3 +6,5 @@ facebook	#0062E0
 analytics	#E37400
 github		#000000
 instagram	#8134af
+Twitter-l   #1da1f2
+Twitter-d   #15202b
