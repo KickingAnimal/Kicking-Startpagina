@@ -139,8 +139,8 @@ body {
 .btn-secondary.focus,
 .btn-secondary.active {
   color: #FFFFFF !important;
-  background-color: #1c6d75 !important;
-  border-color: #1c6d75 !important;
+  background-color: #202020 !important;
+  border-color: #282828 !important;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
